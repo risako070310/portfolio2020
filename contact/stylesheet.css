@@ -14,18 +14,25 @@ li{
     list-style: none;
 }
 
+a{
+    text-decoration: none;
+}
+
 
 footer{
     text-align: center;
     padding: 10px;
+    color: #e95383;
 }
 
 /*パソコン向け*/
 @media screen and (min-width:1025px) {
     .top{
         background: url(/home/top.png);
-        height: 900px;
+        height: 865px;
         background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
     .header_content{
         font-size: 35px;
@@ -40,6 +47,27 @@ footer{
         border-bottom: 3px solid #fff;
     }
     .header_content a:hover{
+        opacity: 0.7;
+    }
+    
+    .title{
+        color: #fff;
+        font-size: 50px;
+        margin-top: 100px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .contact{
+        width: 500px;
+        padding-top: 30px;
+        margin: 0 calc((100% - 500px) / 2);
+    }
+    .contact_li a{
+        font-size: 35px;
+        font-style: italic;
+        color: #fff;
+    }
+    .contact_li a:hover{
         opacity: 0.7;
     }
 
