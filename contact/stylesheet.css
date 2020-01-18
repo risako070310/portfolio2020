@@ -75,10 +75,91 @@ footer{
 
 /*タブレット向け*/
 @media screen and (min-width:481px) and (max-width:1024px) {
-    
+    .top{
+        background: url(/home/top1.png);
+        height: 900px;
+        background-position: top;
+        background-repeat: no-repeat;
+    }
+    .header_content{
+        font-size: 30px;
+        margin: 30px 50px;
+    }
+    .header{
+        justify-content: space-around;
+    }
+    .header_content a{
+        text-decoration: none;
+        color: #fff;
+        border-bottom: 3px solid #fff;
+    }
+    .header_content a:hover{
+        opacity: 0.7;
+    }
+    .title{
+        color: #fff;
+        font-size: 50px;
+        margin-top: 100px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .contact{
+        width: 500px;
+        padding-top: 30px;
+        margin: 0 calc((100% - 500px) / 2);
+    }
+    .contact_li a{
+        font-size: 35px;
+        font-style: italic;
+        color: #fff;
+    }
+    .contact_li a:hover{
+        opacity: 0.7;
+    }
 }
 
 /*スマホ向け*/
 @media screen and (min-width:1px) and (max-width:480px) {
-    
+    .top{
+        background: url(/home/top2.png);
+        height: 480px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .header_content{
+        font-size: 20px;
+        margin: 10px;
+    }
+    .header{
+        justify-content: space-around;
+    }
+    .header_content a{
+        text-decoration: none;
+        color: #fff;
+        border-bottom: 3px solid #fff;
+    }
+    .header_content a:hover{
+        opacity: 0.7;
+    }
+    .title{
+        color: #fff;
+        font-size: 30px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .contact{
+        width: 250px;
+        padding-top: 10px;
+        margin: 0 calc((100% - 250px) / 2);
+    }
+    .contact_li a{
+        font-size: 20px;
+        font-style: italic;
+        color: #fff;
+    }
+    .contact_li a:hover{
+        opacity: 0.7;
+    }
 }
