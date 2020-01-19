@@ -24,6 +24,10 @@ footer{
 
 /*パソコン向け*/
 @media screen and (min-width:1025px) {
+    #animation{
+        width: 70%;
+        margin-left: 25%;
+    }
     .top{
         background: url(/home/top.png);
         height: 900px;
@@ -105,6 +109,11 @@ footer{
 
 /*タブレット向け*/
 @media screen and (min-width:481px) and (max-width:1024px) {
+    #animation{
+        width: 70%;
+        margin-left: 25%;
+        margin-top: 100px;
+    }
     .top{
         background: url(/home/top1.png);
         height: 900px;
@@ -183,6 +192,9 @@ footer{
 
 /*スマホ向け*/
 @media screen and (min-width:1px) and (max-width:480px) {
+    #animation{
+        margin-top: 50px;
+    }
     .top{
         background: url(/home/top2.png);
         height: 500px;
