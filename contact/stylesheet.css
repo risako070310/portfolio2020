@@ -29,7 +29,7 @@ footer{
 @media screen and (min-width:1025px) {
     .top{
         background: url(/home/top.png);
-        height: 865px;
+        height: 900px;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
