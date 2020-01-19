@@ -24,6 +24,10 @@ footer{
 
 /*パソコン向け*/
 @media screen and (min-width:1025px) {
+    #animation{
+        width: 70%;
+        margin-left: 25%;
+    }
     .top{
         background: url(/home/top.png);
         height: 900px;
