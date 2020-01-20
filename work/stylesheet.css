@@ -142,7 +142,7 @@ footer{
     
     .work_content{
         width: 300px;
-        height: 500px;
+        height: 550px;
         background: #fff;
         border-radius: 20px;
         box-shadow: 5px 10px 10px #aaa;
@@ -160,10 +160,22 @@ footer{
     }
     .work_bio{
         padding: 20px;
+        height: 120px;
     }
     .work_pic{
         width: 240px;
         margin: 0 30px;
+    }
+    .work_button{
+        text-decoration: none;
+        color: #e95383;
+        font-size: 25px;
+        padding: 5px 30px;
+        font-style: italic;
+        text-align: center;
+        margin: 0 calc((100% - 120px) / 2);
+        border-radius: 30px;
+        border: 2px solid #e95383;
     }
 
 }
@@ -208,7 +220,7 @@ footer{
     
     .work_content{
         width: 300px;
-        height: 500px;
+        height: 550px;
         background: #fff;
         border-radius: 20px;
         box-shadow: 5px 10px 10px #aaa;
@@ -226,10 +238,22 @@ footer{
     }
     .work_bio{
         padding: 20px;
+        height: 120px;
     }
     .work_pic{
         width: 240px;
         margin: 0 30px;
+    }
+    .work_button{
+        text-decoration: none;
+        color: #e95383;
+        font-size: 25px;
+        padding: 5px 30px;
+        font-style: italic;
+        text-align: center;
+        margin: 0 calc((100% - 120px) / 2);
+        border-radius: 30px;
+        border: 2px solid #e95383;
     }
 
 }
