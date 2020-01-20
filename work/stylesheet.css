@@ -56,7 +56,7 @@ footer{
         flex-wrap: wrap;
         justify-content: space-around;
         margin: 0 150px;
-        margin-bottom: 200px;
+        margin-bottom: 100px;
     }
     
     .work_content{
@@ -80,6 +80,10 @@ footer{
     .work_bio{
         padding: 20px;
     }
+    .work_pic{
+        width: 240px;
+        margin: 0 30px;
+    }
 
 }
 
@@ -87,8 +91,8 @@ footer{
 @media screen and (min-width:481px) and (max-width:1024px) {
     .top{
         background: url(/home/top1.png);
-        height: 900px;
-        background-position: top;
+        height: 800px;
+        background-position: center;
         background-repeat: no-repeat;
     }
     .header_content{
@@ -113,13 +117,46 @@ footer{
         margin-bottom: 20px;
         color: #e95383;
     }
+    .work_box{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: 100px;
+    }
+    
+    .work_content{
+        width: 300px;
+        height: 500px;
+        background: #fff;
+        border-radius: 20px;
+        box-shadow: 5px 10px 10px #aaa;
+        margin: 50px 30px;
+    }
+    .work_title{
+        text-align: center;
+        border-bottom: 3px solid #f08f9f;
+        color: #e95383;
+        font-size: 30px;
+        margin: 0 40px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    
+    }
+    .work_bio{
+        padding: 20px;
+    }
+    .work_pic{
+        width: 240px;
+        margin: 0 30px;
+    }
+
 }
 
 /*スマホ向け*/
 @media screen and (min-width:1px) and (max-width:480px) {
     .top{
         background: url(/home/top2.png);
-        height: 500px;
+        height: 300px;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -146,5 +183,37 @@ footer{
         margin-bottom: 10px;
         color: #e95383;
     }
+    .work_box{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: 100px;
+    }
     
+    .work_content{
+        width: 300px;
+        height: 500px;
+        background: #fff;
+        border-radius: 20px;
+        box-shadow: 5px 10px 10px #aaa;
+        margin: 50px 50px;
+    }
+    .work_title{
+        text-align: center;
+        border-bottom: 3px solid #f08f9f;
+        color: #e95383;
+        font-size: 30px;
+        margin: 0 40px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    
+    }
+    .work_bio{
+        padding: 20px;
+    }
+    .work_pic{
+        width: 240px;
+        margin: 0 30px;
+    }
+
 }
