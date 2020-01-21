@@ -56,13 +56,43 @@ footer{
         margin: 0 calc((100% - 500px) / 2);
     }
     .bio{
-        width: 600px;
+        width: 700px;
         font-size: 20px;
-        padding: 20px;
-        margin: 0 calc((100% - 640px) / 2);
+        padding: 50px 20px;
+        margin: 0 calc((100% - 740px) / 2);
+        color: #e95383;
     }
     .work{
         margin-bottom: 200px;
+    }
+    .work_pic{
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .work1_pic{
+        height: 200px;
+        margin: 0 30px;
+        
+    }
+    .button{
+        text-decoration: none;
+        box-shadow: 5px 5px 10px #aaa;
+        font-size: 30px;
+        color: #fff;
+        background: #e95383;
+        font-style: italic;
+        border-radius: 40px;
+        padding: 10px 50px;
+        text-align: center;
+        display:block;
+        width: 200px;
+        margin: 100px auto;
+    }
+    .button:hover {
+        box-shadow: none;
+        transform: translate(3px, 3px);
     }
 }
 

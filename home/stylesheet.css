@@ -85,12 +85,11 @@ footer{
     
     .skill_box{
         display: flex;
-        justify-content: space-around;
-        margin: 0 130px;
+        justify-content: center;
         margin-bottom: 100px;
     }
     .skill_content{
-        margin: 30px 0;
+        margin: 30px 20px;
         color: #e95383;
         width: 200px;
     }
