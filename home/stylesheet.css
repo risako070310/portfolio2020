@@ -30,10 +30,15 @@ footer{
     }
     .top{
         background: url(/home/top.png);
-        height: 900px;
+        height: 700px;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
+    }
+    .icon{
+        width: 80px;
+        float: left;
+        margin: 15px 50px;
     }
     .header_content{
         font-size: 35px;
